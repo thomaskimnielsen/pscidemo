@@ -14,8 +14,8 @@ env:
   AZURE_WEBAPP_NAME: 'PSDeployDemo'
 
 jobs:
-  build:  
-
+  build:
+  
     runs-on: ubuntu-latest
 
     steps:
