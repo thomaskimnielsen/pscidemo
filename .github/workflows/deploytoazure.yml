@@ -15,7 +15,7 @@ jobs:
     env:
       BUILD_CONFIG: Release
       DOT_NET_VERSION: 10.0.x
-  
+           
     runs-on: ubuntu-latest
 
     steps:
@@ -30,7 +30,7 @@ jobs:
       run: echo "Build Config - $BUILD_CONFIG"
 
     - name: Print default environment variables of person or app that initiated workflow
-    - run: echo "Workflow initiated by - $GITHUB_ACTOR"
+      run: echo "Workflow initiated by - $GITHUB_ACTOR"
        
     - name: Restore dependencies
       run: dotnet restore
